@@ -47,7 +47,7 @@ fun Calculator(
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
                 fontWeight = FontWeight.Light,
-                fontSize = 45.sp,
+                fontSize = 35.sp,
                 color = Color.White,
                 maxLines = 2
             )
