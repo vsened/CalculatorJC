@@ -1,7 +1,7 @@
 package com.vsened.calculatorjc
 
 sealed class CalculatorActions {
-    data class Number(val numbet: Int): CalculatorActions()
+    data class Number(val number: Int): CalculatorActions()
     object Clear: CalculatorActions()
     object Delete: CalculatorActions()
     object Decimal: CalculatorActions()
